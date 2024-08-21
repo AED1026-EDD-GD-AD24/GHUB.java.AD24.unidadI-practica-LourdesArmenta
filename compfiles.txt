@@ -1,2 +1,4 @@
 ./miTest/AppTest.java
 ./miPrincipal/Principal.java
+./miPrincipal/Persona.java
+./miPrincipal/Fecha.java
