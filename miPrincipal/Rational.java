@@ -1,6 +1,5 @@
 package miPrincipal;
 
-import java.util.Arrays;
 
 public class Rational {
     private int r[] = new int[2];
@@ -25,6 +24,12 @@ public class Rational {
         x.setNumerador(a.getNumerador()*b.getNumerador());
         x.setDenominador(a.getDenominador()*b.getDenominador());
         return x;
+
+    }
+
+    public boolean equal(Rational a, Rational b){
+        return (a.getNumerador()*b.getDenominador() 
+              == b.getNumerador()*a.getDenominador());
 
     }
 
