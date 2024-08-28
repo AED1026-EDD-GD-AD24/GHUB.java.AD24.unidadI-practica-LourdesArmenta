@@ -2,4 +2,5 @@
 ./miPrincipal/Rational.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Persona.java
+./miPrincipal/Conjunto.java
 ./miPrincipal/Fecha.java
