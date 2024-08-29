@@ -1,5 +1,9 @@
 package miPrincipal;
 
+import java.util.Scanner;
+
+import org.junit.jupiter.engine.script.ScriptAccessor;
+
 public class Principal {
     public String getGreeting() {
         return "Hola Mundo!";
@@ -7,21 +11,47 @@ public class Principal {
 
     public static void main(String[] args) {
         //System.out.println(new Principal().getGreeting());
-        //Probar mi clase Rational
-        Rational r1 = new Rational(5,3);
-        Rational r2 = new Rational(2,3);
-        Rational r3 = new Rational();
-        r3 = r1.add(r1, r2);
-        System.out.println("Resultado de suma:"+r3);
+        Scanner consola = new Scanner(System.in);
+        int opc =0;
+        do{
+            System.out.println("***********************************");
+            System.out.println("    TIPOS DE DATOS ABSTRACTOS");
+            System.out.println("***********************************");
+            System.out.println(" 1) Rational");
+            System.out.println(" 2) Matriz");
+            System.out.println(" 3) Cadena");
+            System.out.println(" 4) Numerote");
+            System.out.println(" 5) Conjunto");
+            System.err.println();
+            System.out.println(" 0) Salir");
+            System.out.print("selecciona opción ");
+            opc = consola.nextInt();
+            switch (opc) {
+                case 1:  
+                   AppRational.menu();
+                    break;
 
-        Rational r4 = new Rational();
-        r4 = r1.mult(r1, r2);
-        System.out.println("El resultado de la multiplicacion:"+r4);
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                   AppConjunto.menu();
+                   break;
+                case 0:
+                    System.out.println("Hasta luego!");
+                    break;
+            
+                default:
+                   System.out.println("Valor incorrecto, intenta de nuevo");
+                
+            }
 
-        Rational r5 = new Rational(7,3);
+        } while (opc !=0);
 
-        System.out.println("El resultado de la comparacion de  "+
-                           r3+" y "+r5 +" es "+r5.equal(r3, r5));
+
+    
+        
+        
 
         
     }

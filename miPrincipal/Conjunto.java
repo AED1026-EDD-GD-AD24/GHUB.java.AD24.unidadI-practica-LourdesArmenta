@@ -74,7 +74,7 @@ public class Conjunto {
     }
 
     //devuelva le número de elementos
-    public int cardinal(){
+    public int getCardinal(){
         return this.cardinal;
     }
 
