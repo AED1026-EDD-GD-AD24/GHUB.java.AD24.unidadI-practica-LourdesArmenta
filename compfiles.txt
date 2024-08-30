@@ -4,5 +4,6 @@
 ./miPrincipal/AppConjunto.java
 ./miPrincipal/Persona.java
 ./miPrincipal/Conjunto.java
+./miPrincipal/PosicionIlegalExcepcion.java
 ./miPrincipal/AppRational.java
 ./miPrincipal/Fecha.java

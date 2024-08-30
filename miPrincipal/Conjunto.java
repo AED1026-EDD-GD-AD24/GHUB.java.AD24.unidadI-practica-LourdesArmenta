@@ -1,5 +1,7 @@
 package miPrincipal;
 
+import java.util.Arrays;
+
 public class Conjunto {
     static int M = 20;
     private Object cto[];
@@ -94,7 +96,18 @@ public class Conjunto {
         return u;
 
     }
+    @Override
+    public String toString() {
+        String s ="{";
+            for(int k=0;k<cardinal;k++)
+               s+=cto[k].toString()+",";
+            if(cardinal>0)
+               s=s.substring(0,s.length()-1);
+            s+="}";
+            return s;
 
+   
+    }
 
 
 

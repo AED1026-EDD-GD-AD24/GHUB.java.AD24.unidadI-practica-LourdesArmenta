@@ -34,10 +34,15 @@ public class AppConjunto {
         B.añadir(ele);
         ele=3;
         B.añadir(ele);
+        B.añadir(4);
+        B.añadir(10);
+        System.out.println("El conjunto B tiene "+B.getCardinal()+" elementos");
+        B.retirar(10);
         System.out.println("El conjunto B tiene "+B.getCardinal()+" elementos");
 
         Conjunto C=A.union(B);
         System.out.println("El conjunto C tiene "+C.getCardinal()+" elementos");
+        System.out.println(C.toString());
 
 
 
