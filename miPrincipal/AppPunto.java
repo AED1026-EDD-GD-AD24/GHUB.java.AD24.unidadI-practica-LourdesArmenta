@@ -20,6 +20,12 @@ public class AppPunto {
         System.out.println("Valor de x en punto3: "+p3.getX());
         System.out.println("Valor de y en punto3: "+p3.getY());
 
+        System.out.println("Distancia entre p1 y p2:"+p1.distancia(p2));
+
+        System.out.println("Distancia entre p1 y p3:"+p1.distancia(p3));
+
+        System.out.println("Distancia entre p2 y p3:"+p2.distancia(p3));
+
 
         
      }
