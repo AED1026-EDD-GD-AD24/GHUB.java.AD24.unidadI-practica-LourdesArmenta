@@ -1,6 +1,6 @@
 package miPrincipal;
 
-import java.util.Arrays;
+
 
 public class Conjunto {
     static int M = 20;

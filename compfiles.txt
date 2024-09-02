@@ -2,8 +2,10 @@
 ./miPrincipal/Rational.java
 ./miPrincipal/Principal.java
 ./miPrincipal/AppConjunto.java
+./miPrincipal/Punto.java
 ./miPrincipal/Persona.java
 ./miPrincipal/Conjunto.java
 ./miPrincipal/PosicionIlegalExcepcion.java
 ./miPrincipal/AppRational.java
 ./miPrincipal/Fecha.java
+./miPrincipal/AppPunto.java
