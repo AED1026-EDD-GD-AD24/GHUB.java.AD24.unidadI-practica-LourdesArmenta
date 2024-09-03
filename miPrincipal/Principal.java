@@ -50,6 +50,8 @@ public class Principal {
                    AppPunto.menu();
                    break;
                 case 10:
+                   AppTriangulo.menu();
+                   break;
                 case 11:
                 
                 case 0:
